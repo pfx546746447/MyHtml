@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>position_prac</title>
+    <style>
+        *{padding:0;margin:0;}
+        body{background: #a6e1ec}
+        .contant{
+            width:160px;
+            height:164px;
+            position: fixed;
+            top:50%;
+            left: 0;
+            margin-top: -82px;
+        }
+        .list1{
+            width:160px;
+            height: auto;
+            background: #2b333b;
+            font-size: 16px;
+            border-bottom: 1px white solid;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+        }
+        .list1:hover {
+            cursor: pointer;
+        }
+        .list1:hover ul{
+            display: block;
+        }
+        .list1 ul{
+            width: 160px;
+            height: 108px;
+            display: none;
+        }
+        .list1 ul li{
+            width: 160px;
+            height: 35px;
+            background: white;
+            color: black;
+            font-size: 14px;
+            border-bottom: 1px solid #122b40;
+            text-align: center;
+            line-height: 35px;
+            position: relative;
+        }
+        .list1 ul li:hover .contant2{
+            display: block;
+        }
+        .contant2{
+            width: 160px;
+            height: auto;
+            position: absolute;
+            top:0;
+            left: 160px;
+            display: none;
+            border-bottom: 1px dashed #000000;
+            font-size: 14px;
+            color: white;
+        }
+        .list3{
+            width: 160px;
+            height: 35px;
+            background: #4d555d;
+            color: white;
+            font-size: 14px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="contant">
+    <div class="list1">
+        <div>position标题</div>
+        <ul>
+            <li class="list2">二级标题
+                <div class="contant2">
+                    <div class="list3">三级标题</div>
+                    <div class="list3">三级标题</div>
+                    <div class="list3">三级标题</div>
+                </div>
+            </li>
+            <li class="list2">二级标题</li>
+            <li class="list2">二级标题</li>
+        </ul>
+    </div>
+    <div class="list1">position标题</div>
+    <div class="list1">position标题</div>
+    <div class="list1">position标题</div>
+</div>
+</body>
+</html>

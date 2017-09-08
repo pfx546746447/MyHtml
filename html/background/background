@@ -1,0 +1,28 @@
+background-color:包括边框，内边距，不包括外边距。
+background-image：默认处于左上角，在水平和垂直方向重复。
+
+background-image > background-color
+
+background-attachment:背景图显示方式
+        scroll:随着滚动条滚动而滚动
+        fixed：不随这滚动条滚动而滚动
+
+background-position:背景图位置
+
+列表项标记：list-style-type
+    无序列表：
+        none:五标记
+        disc：实心圆点
+        circle：空心圆点
+        square：实心方块
+    有序列表：
+        none：无标记
+        decimal：从1开始的整数
+        lower-roman：小写罗马
+        upper-roman:大写罗马
+        lower-alpha：小写英文
+        upper-alpha：大写英文
+
+图片设置列表项标记：list-style-image:url()
+
+list-style-image > list-style-type

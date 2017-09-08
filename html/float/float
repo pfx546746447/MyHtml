@@ -1,0 +1,15 @@
+float属性：left，right，inherit，none（inherit是继承父控件的浮动）
+
+float会脱离正常文本流。
+
+浮动副作用解决：1.手动给父元素添加高度。
+             2.通过clear清除内部和外部浮动。
+             3.给付元素添加overfloat属性并结合zoom：1使用
+             4.给父元素添加浮动。
+
+clear：none
+       left:不允许左边有浮动对象
+       right：不允许右边有浮动对象
+       both：不允许有浮动对象
+
+overfloat:截取溢出的元素。

@@ -1,0 +1,149 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.header .logo{
+    margin-bottom: 10px;
+}
+
+.header hr{
+    background: #B0C4DE;
+}
+
+.header .nav{
+    width:560px;
+    margin-right: 10px;
+}
+
+.header .nav ul{
+    width: 560px;
+    height:50px;
+    margin-right: 10px;
+}
+
+.header .nav ul li:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.header .nav ul li{
+    list-style: none;
+    float: left;
+    width: 80px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.banner {
+    width: 1200px;
+    margin:0 auto;
+}
+
+.banner img{
+    width: 1200px;
+}
+
+.main{
+    height: 1000px;
+    margin: 0 auto;
+    background: #D3D3D3;
+}
+
+.main .content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main .content .left{
+    width: 66.6%;
+    background: white;
+    padding: 20px 20px 20px 15px;
+    float: left;
+}
+
+.main .content .left .title{
+    color: #FF4500;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.main .content .left title2{
+    color:#DCDCDC;
+    font-size: 16px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.main .content .left hr{
+    margin-bottom: 10px;
+    background: #dcdcdc;
+}
+
+.main .content .left .body{
+    text-indent: 20px;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.main .content .left .body2{
+    line-height: 25px;
+    font-size: 14px;
+    margin:15px 0;
+}
+
+.main .content .left ul{
+    padding-left:40px;
+    margin-bottom: 15px;
+}
+
+.main .content .left ul li{
+    line-height: 25px;
+    font-size: 14px;
+    list-style-type: decimal-leading-zero;
+}
+
+.main .content .right{
+    width: 310px;
+    float: right;
+    margin-right: 10px;
+}
+
+.main .content .right .common{
+    width: 310px;
+    background: white;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.main .content .right .common dl dt img{
+    width: 310px;
+}
+
+/*.main .content .right .common dl dt{*/
+    /*margin: 5px;*/
+/*}*/
+
+.main .content .right .common dl .dt-title{
+    color: #FF4500;
+    font-family: Arial;
+    padding: 5px;
+
+}
+
+.main .content .right .common dl .desc{
+    font-size: 14px;
+    padding: 5px;
+}

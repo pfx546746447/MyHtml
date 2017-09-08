@@ -1,0 +1,3 @@
+position:relative
+        可以设置left，right，bottom，top，以网页左上角为原点，进行相反方向的移动。
+当元素的position皆为relative时,后写元素的层级 > 先写元素的层级

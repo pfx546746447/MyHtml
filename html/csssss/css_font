@@ -1,0 +1,16 @@
+字体：如果有中文或空格设置css时应该将字体用双引号包裹。
+绝对大小设置：pt,cm,mm,pc
+相对大小设置：px,em（相对于父控件改变大小）
+
+
+字体颜色范围：rgb（数字：0-255，百分比：0%-100%）
+
+text-align：文字水平对齐，只对块级元素有效，对行内元素无效（eg:span,b,em）
+vertical-align:文字垂直对齐，对行内元素和单元格有效
+    垂直居中：当要在div内设置垂直居中时，可以设置display:table-cell，在父控件设置display:table
+
+line-height:行高
+        单位：px，em，%，px定义大小，其余两个都是百分比。
+
+word-sapcing:单词间距（以空格为标准）
+letter-spacing:字母间距

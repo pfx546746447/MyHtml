@@ -1,0 +1,24 @@
+可以设置宽高的元素：块级元素和替换元素（img，input，textarea）
+
+当图片设置宽高的时候，如果行内样式和css都设置了宽高，以css样式为准
+
+边框：border：可以设置color，width，style，设置前必须设置style才显示，默认为none
+    border-top,border-left,border-right,border-bottom,可以设置上下左右的边框
+
+padding:填充，填充大小会扩展元素本身大小，<div style="width:200px;height:200px";padding:10px;></div>
+        这时div的大小就是210px
+
+margin：元素与元素之间的距离。
+    当两个相邻元素都设置margin时，外边距会合并，数值取决于最大的数值。
+
+元素的宽高=元素宽高+边框宽高+边框宽高+填充宽高
+
+display:inline：元素显示为内联元素，前后没有换行符。
+        block：元素显示为块级元素，前后有换行符。
+        inline-block：既有内联属性也有块级属性，width和height生效，且没有换行符。
+
+对于内联元素和使用display：inline设置为内联元素的元素，width和height无效。
+margin和padding水平方向有效，垂直方向无效。
+对于块级元素及用display：block设置的元素，全都有效。
+
+
