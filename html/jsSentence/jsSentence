@@ -1,0 +1,7 @@
+prompt():弹出对话框，一个输入框一个确定一个取消。
+
+NaN和任何内容都不相等，包括本身，NaN属于number类型。
+
+new Date().getDay()获取星期，返回结果0-6
+
+document.write("内容")向浏览器输出内容

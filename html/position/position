@@ -1,3 +1,13 @@
 position:relative
         可以设置left，right，bottom，top，以网页左上角为原点，进行相反方向的移动。
 当元素的position皆为relative时,后写元素的层级 > 先写元素的层级
+
+position：absolute，以父元素的角为原点，脱离文档流。
+        fixed：固定定位，以网页角为原点。
+
+z-index:设置元素叠加顺序，但依赖position属性
+        z-index大的数会覆盖小的数。
+        z-index为auto的元素不参与比较
+        z-index为负数的元素会被普通流中的元素覆盖
+
+        当父元素层级大于其他元素时，子元素不论层级大小，都会大于其他元素。
